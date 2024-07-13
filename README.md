@@ -26,10 +26,15 @@ Feature engineering involved encoding categorical variables.
 
 ## 5. Exploratory Data Analysis (EDA)
 Age: Most customers are aged between 30 and 60 years.
+
 Income: Customer income is widely distributed, with many earning between 50,000 and 120,000 annually.
+
 Spending Score: Spending scores are fairly evenly distributed, with a concentration around the 50-75 range.
+
 Preferred Category: The Sports category is the most preferred, followed by Groceries and Electronics.
+
 Gender: The dataset has a higher number of male customers.
+
 ## 6. Clustering Analysis
 #### K-means Clustering
 Applied K-means clustering with k=5 based on exploratory analysis.
@@ -66,6 +71,7 @@ Age: Mainly younger customers.
 Income: Moderate.
 Spending Score: High.
 Recommendations: Leverage digital marketing channels and personalized recommendations.
+
 ## 8. Recommendations
 Targeted Marketing Strategies
 Develop budget-friendly promotions for Cluster 0.
@@ -75,12 +81,17 @@ Provide cost-effective solutions for Cluster 3.
 Use digital marketing to engage Cluster 4.
 Customer Engagement
 Implement tailored engagement strategies to maintain loyalty and increase sales.
+
 ## 9. Future Work
-Further Refinement
+##### Further Refinement
 Experiment with other clustering algorithms and parameter tuning to potentially improve clustering results.
-Additional Data
+
+##### Additional Data
 Consider incorporating additional data sources (e.g., customer feedback, transaction history) for more comprehensive segmentation.
-Limitations
+
+##### Limitations
 Discuss any limitations of the current analysis, such as the moderate silhouette scores for certain clustering methods.
+
+
 ## 10. Final Note
 The project demonstrates the importance of customer segmentation in developing effective marketing strategies. Despite moderate silhouette scores for DBSCAN, the K-means clustering provided actionable insights into customer segments.
